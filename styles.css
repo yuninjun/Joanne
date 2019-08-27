@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light&display=swap');
+h1 {
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 30px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-shadow: 10px 10px 6px #225;
+}
+
+table, tr, td, th {
+    border: solid 1px;
+} 
