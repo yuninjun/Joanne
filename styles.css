@@ -10,3 +10,7 @@ h1 {
 table, tr, td, th {
     border: solid 1px;
 } 
+
+.centered {
+    text-align: center;
+} 
