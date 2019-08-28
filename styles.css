@@ -3,7 +3,6 @@ h1 {
     font-family: 'Shadows Into Light', cursive;
     font-size: 30px;
     font-weight: 400;
-    text-transform: uppercase;
     text-shadow: 10px 10px 6px #225;
 }
 
@@ -13,4 +12,14 @@ table, tr, td, th {
 
 .centered {
     text-align: center;
+} 
+
+nav li {
+    display: inline;
+    padding: 0.66rem;
+    margin: 0.5rem;
+    border: 1px rgba(0, 8, 34, 0.33) solid;
+    border-radius: 2rem;
+    box-shadow: 5px 5px 10px rgba(0, 3, 44, 0.349);
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 1) 0%, rgba(241, 241, 241, 1) 50%, rgba(225, 225, 225, 1) 21%, rgba(246, 246, 246, 1) 100%);
 } 
