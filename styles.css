@@ -52,3 +52,11 @@ nav li a {
     font-family: "Passion One", sans-serif;
     text-decoration-line: none;
 } 
+
+
+h1 { font-family: 'Shadows Into Light', cursive;
+font-size: 100px;
+font-weight: 400;
+text-transform: uppercase;
+text-shadow: 10px 10px 6px #225;
+}
