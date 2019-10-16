@@ -56,8 +56,8 @@ nav li a {
 
 h1 { 
     font-family: 'Shadows Into Light', cursive;
-    font-size: 80px;
-    font-weight: 400;
+    font-size: 50px;
+    font-weight: 300;
     text-transform: uppercase;
     text-shadow: 10px 10px 6px #225;
 }
@@ -69,8 +69,13 @@ h1 {
   }
 
 
-
-
 figcaption {
     font-size: 15px;
 }
+
+img {
+    max-width: 100%;
+    height: auto;
+  }
+
+ 
