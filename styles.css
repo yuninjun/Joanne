@@ -68,13 +68,7 @@ h1 {
     text-align: justify;
   }
 
-  figure {
-    display: block;
-    margin-top: 5em;
-    margin-bottom: 1em;
-    margin-left: 80px;
-    margin-right: 80px;
-  }
+
 
 img {
     max-width: 100%;
@@ -88,4 +82,17 @@ table {
     margin-bottom: 1em;
     margin-left: 80px;
     margin-right: 80px;
+  }
+
+  @media screen and (max-width: 992px) {
+    .column {
+      width: 50%;
+    }
+  }
+  
+  /* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
   }
