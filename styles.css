@@ -110,17 +110,20 @@ img {
 
 @media screen and (min-width: 1900px) {
     p { font-size: 200%;
+    }
 }
 
 @media screen and (min-width: 1900px) {
     ul { font-size: 200%;
+    }
 }
-
 
  @media screen and (min-width: 1900px) {
     h1 { font-size: 700%;
+    }
 }
 
 @media screen and (min-width: 1900px) {
     h2 { font-size: 500%;
+    }
 }
