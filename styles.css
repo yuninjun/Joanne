@@ -76,17 +76,7 @@ img {
   }
 
  
-
-
-  @media screen and (max-width: 992px) {
-    .column {
-      width: 50%;
+@media screen and (min-width: 2000px) {
+    h1 { font-size: 80px;
     }
-  }
-  
-  /* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
-  @media screen and (max-width: 600px) {
-    .column {
-      width: 100%;
-    }
-  }
+}
